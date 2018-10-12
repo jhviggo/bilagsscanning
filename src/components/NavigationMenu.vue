@@ -1,11 +1,11 @@
 <template>
   <div>
     <div class="row">
-      <div class="col col-md-2 py-3 button-background" :class="{ 'selected': first }">Kontakt os</div>
+      <div class="col col-md-2 py-1 button-text button-background pointer" @click="goToPage('kontakt-os')" :class="{ 'selected': first }">Kontakt os</div>
       <div class="spacer"></div>
-      <div class="col py-3 button-background" :class="{ 'selected': second }">Virksomheder</div>
+      <div class="col py-1 button-text button-background pointer" :class="{ 'selected': second }">Virksomheder</div>
       <div class="spacer"></div>
-      <div class="col py-3 button-background" :class="{ 'selected': third }">Bogholdere & revisorer</div>
+      <div class="col py-1 button-text button-background pointer" :class="{ 'selected': third }">Bogholdere & revisorer</div>
     </div>
   </div>
 </template>
@@ -16,6 +16,11 @@ export default {
     first: Boolean,
     second: Boolean,
     third: Boolean,
+  },
+  methods: {
+    goToPage(url) {
+      window.location.href = url;
+    }
   }
 }
 </script>
@@ -26,6 +31,22 @@ export default {
   border: 1px solid #fed5b1;
   color: #b66113;
   border-radius: 8px 8px 0 0;
+}
+
+@media (min-width: 768px) {
+  .button-text {
+    font-size: large;
+  }
+}
+
+@media (min-width: 992px) {
+  .button-text {
+    font-size: x-large;
+  }
+}
+
+.pointer {
+  cursor: pointer;
 }
 
 .spacer {

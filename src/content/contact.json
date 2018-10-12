@@ -1,0 +1,30 @@
+[
+  {
+    "id": "business",
+    "text": "Firma"
+  },
+  {
+    "id": "name",
+    "text": "Navn"
+  },
+  {
+    "id": "address",
+    "text": "Adresse"
+  },
+  {
+    "id": "postal",
+    "text": "Postnr."
+  },
+  {
+    "id": "city",
+    "text": "By"
+  },
+  {
+    "id": "phone",
+    "text": "Telefon"
+  },
+  {
+    "id": "email",
+    "text": "E-mail"
+  }
+]

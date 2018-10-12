@@ -1,0 +1,16 @@
+{
+  "items": [
+    {
+      "name": "Om os",
+      "url": "om-os"
+    },
+    {
+      "name": "Kontakt os",
+      "url": "kontakt-os"
+    },
+    {
+      "name": "Ofte stillede spørgsmål",
+      "url": "FAQ"
+    }
+  ]
+}

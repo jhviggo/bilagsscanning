@@ -1,7 +1,9 @@
 <template>
   <div>
     <div>
-      <navigation-menu/>
+      <navigation-menu
+        :first="true"
+      />
     </div>
     <div class="row border-gradient">
       <minor-navigation-menu

@@ -11,6 +11,9 @@ module.exports = {
         staticDir: path.join(__dirname, 'dist'),
         routes: [
           '/',
+          'FAQ',
+          'om-os',
+          'kontakt-os'
         ]
       })
     ]

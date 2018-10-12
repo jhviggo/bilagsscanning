@@ -3,6 +3,7 @@ import Router from 'vue-router'
 import index from './views/index.vue'
 import kontakt from './views/kontakt-os/index.vue';
 import om_os from './views/om-os/index.vue';
+import faq from './views/FAQ/index.vue';
 
 Vue.use(Router)
 
@@ -24,6 +25,11 @@ export default new Router({
       path: '/om-os',
       name: 'om_os',
       component: om_os
+    },
+    {
+      path: '/FAQ',
+      name: 'faq',
+      component: faq
     }
 
   ]

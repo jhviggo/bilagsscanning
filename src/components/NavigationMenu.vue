@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="row row-container">
+    <div class="row">
       <div class="col col-md-2 py-3 button-background" :class="{ 'selected': first }">Kontakt os</div>
       <div class="spacer"></div>
       <div class="col py-3 button-background" :class="{ 'selected': second }">Virksomheder</div>
@@ -26,11 +26,6 @@ export default {
   border: 1px solid #fed5b1;
   color: #b66113;
   border-radius: 8px 8px 0 0;
-}
-
-.row-container {
-  margin-right: 0;
-   margin-left: 0;
 }
 
 .spacer {

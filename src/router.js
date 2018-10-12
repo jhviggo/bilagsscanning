@@ -2,6 +2,7 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import index from './views/index.vue'
 import kontakt from './views/kontakt-os/index.vue';
+import om_os from './views/om-os/index.vue';
 
 Vue.use(Router)
 
@@ -18,6 +19,12 @@ export default new Router({
       path: '/kontakt-os',
       name: 'kontakt_os',
       component: kontakt
+    },
+    {
+      path: '/om-os',
+      name: 'om_os',
+      component: om_os
     }
+
   ]
 })

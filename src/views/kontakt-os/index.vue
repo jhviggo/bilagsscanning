@@ -62,7 +62,7 @@ export default {
     }
   },
   created() {
-    this.menuItems = require('../../content/minorMenuKontakt.json').items;
+    this.menuItems = require('../../content/minorMenuKontakt.json');
     this.contactForm = require('../../content/contact.json');
   }
 }

@@ -3,7 +3,7 @@
     <div class="row">
       <div class="col col-md-2 py-1 button-text button-background pointer" @click="goToPage('kontakt-os')" :class="{ 'selected': first }">Kontakt os</div>
       <div class="spacer"></div>
-      <div class="col py-1 button-text button-background pointer" :class="{ 'selected': second }">Virksomheder</div>
+      <div class="col py-1 button-text button-background pointer" @click="goToPage('produktet')" :class="{ 'selected': second }">Virksomheder</div>
       <div class="spacer"></div>
       <div class="col py-1 button-text button-background pointer" :class="{ 'selected': third }">Bogholdere & revisorer</div>
     </div>
@@ -19,7 +19,7 @@ export default {
   },
   methods: {
     goToPage(url) {
-      window.location.href = url;
+      this.$router.push(url);
     }
   }
 }

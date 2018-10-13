@@ -13,7 +13,8 @@ module.exports = {
           '/',
           '/FAQ',
           '/om-os',
-          '/kontakt-os'
+          '/kontakt-os',
+          '/produktet'
         ]
       })
     ]

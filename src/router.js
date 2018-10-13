@@ -5,6 +5,7 @@ import kontakt from './views/kontakt-os/index.vue';
 import om_os from './views/om-os/index.vue';
 import faq from './views/FAQ/index.vue';
 import produktet from './views/produktet/index.vue';
+import info from './views/info/index.vue';
 
 Vue.use(Router)
 
@@ -34,8 +35,13 @@ export default new Router({
     },
     {
       path: '/produktet',
-      name: 'produktet,',
+      name: 'produktet',
       component: produktet
+    },
+    {
+      path: '/info',
+      name: 'info',
+      component: info
     }
   ]
 })

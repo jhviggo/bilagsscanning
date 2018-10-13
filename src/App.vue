@@ -6,15 +6,18 @@
     <div class="container pt-5">
       <router-view/>
     </div>
+    <the-footer/>
   </div>
 </template>
 
 <script>
 import TopHeader from './components/TopHeader';
+import TheFooter from './components/TheFooter';
 
 export default {
   components: {
-    TopHeader
+    TopHeader,
+    TheFooter
   }
 }
 </script>

@@ -5,7 +5,7 @@
       <div class="spacer"></div>
       <div class="col py-1 button-text button-background pointer" @click="goToPage('produktet')" :class="{ 'selected': second }">Virksomheder</div>
       <div class="spacer"></div>
-      <div class="col py-1 button-text button-background pointer" :class="{ 'selected': third }">Bogholdere & revisorer</div>
+      <div class="col py-1 button-text button-background pointer" @click="goToPage('partner')" :class="{ 'selected': third }">Bogholdere & revisorer</div>
     </div>
   </div>
 </template>

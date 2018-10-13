@@ -15,7 +15,8 @@ module.exports = {
           '/om-os',
           '/kontakt-os',
           '/produktet',
-          '/info'
+          '/info',
+          '/partner'
         ]
       })
     ]

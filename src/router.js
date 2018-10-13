@@ -6,6 +6,7 @@ import om_os from './views/om-os/index.vue';
 import faq from './views/FAQ/index.vue';
 import produktet from './views/produktet/index.vue';
 import info from './views/info/index.vue';
+import partner from './views/partner/index.vue';
 
 Vue.use(Router)
 
@@ -42,6 +43,11 @@ export default new Router({
       path: '/info',
       name: 'info',
       component: info
-    }
+    },
+    {
+      path: '/partner',
+      name: 'partner',
+      component: partner
+    },
   ]
 })

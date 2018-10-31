@@ -16,15 +16,29 @@
         <div class="row">
           <div class="col-12 col-lg-6">
             <form class="w-100"
-                  name="kontakt"
+                  name="contact"
                   method="POST"
                   data-netlify="true"
                   data-netlify-honeypot="bot-field">
               <input type="hidden" name="form-name" value="contact" />
               <div v-for="contact in contactForm" :key="contact.id" class="row mb-3">
                 <label class="col" :for="contact.id">{{ contact.text }}</label>
-                <input class="col mr-3" :id="contact.id" type="text" :name="`name-${contact.id}`">
+                <input class="col mr-3" :id="contact.id" type="text" :name="`${contact.id}`">
               </div>
+              <div class="col-12 col-lg-6">
+                <p>Jeg vil gerne:</p>
+                  <div>
+                    <input class="mr-1" id="appointment-1" name="møde" value="Jeg vil gerne have et uforpligtende møde" type="radio"/>
+                    <label for="appointment-1">have et uforpligtende møde</label>
+                  </div>
+                  <div>
+                    <input class="mr-1" id="appointment-2" name="materiale" value="Jeg vil gerne have materiale tilsendt" type="radio"/>
+                    <label for="appointment-2">have materiale tilsendt</label>
+                  </div>
+                  <div>
+                    <input class="mr-1" id="appointment-3" name="produktet" value="Jeg vil gerne høre mere om produktet" type="radio"/>
+                    <label for="appointment-3">høre mere om produktet</label>
+                  </div>
               <button class="btn top-header__login py-0 px-5 ml-5">Send</button>
             </form>
           </div>

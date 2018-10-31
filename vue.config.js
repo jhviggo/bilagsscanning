@@ -20,13 +20,5 @@ module.exports = {
         ]
       })
     ]
-  },
-  chainWebpack: config => {
-    config
-    .plugin('copy')
-    .use(require('copy-webpack-plugin'), [[{
-      from: 'public',
-      ignore: ['./index.html', '.DS_Store']
-    }]])
   }
 }

@@ -15,32 +15,20 @@
         <p>Udfyld nedenstående kontaktformular, eller ring til os på telefon <strong>8844 8833</strong>.</p>
         <div class="row">
           <div class="col-12 col-lg-6">
-            <form class="w-100">
+            <form class="w-100"
+                  name="kontakt"
+                  method="POST"
+                  data-netlify="true"
+                  data-netlify-honeypot="bot-field">
+              <input type="hidden" name="form-name" value="contact" />
               <div v-for="contact in contactForm" :key="contact.id" class="row mb-3">
                 <label class="col" :for="contact.id">{{ contact.text }}</label>
                 <input class="col mr-3" :id="contact.id" type="text" :name="`name-${contact.id}`">
               </div>
-            </form>
-          </div>
-          <div class="col-12 col-lg-6">
-            <p>Jeg vil gerne:</p>
-            <form>
-            <div>
-              <input class="mr-1" id="appointment-1" name="contact-action" type="radio"/>
-              <label for="appointment-1">have et uforpligtende møde</label>
-            </div>
-            <div>
-              <input class="mr-1" id="appointment-2" name="contact-action" type="radio"/>
-              <label for="appointment-2">have materiale tilsendt</label>
-            </div>
-            <div>
-              <input class="mr-1" id="appointment-3" name="contact-action" type="radio"/>
-              <label for="appointment-3">høre mere om produktet</label>
-            </div>
+              <button class="btn top-header__login py-0 px-5 ml-5">Send</button>
             </form>
           </div>
         </div>
-        <button class="btn top-header__login py-0 px-5 ml-5">Send</button>
       </div>
     </div>
   </div>

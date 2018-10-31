@@ -51,7 +51,7 @@
         <p class="text-muted font-italic">Se videoen omkring konteringsdelen i Bilagsscanning.</p>
 
         <h5><strong>Likviditet</strong></h5>
-        Manuel bogføring af ind- og udbetalinger samt udarbejdelse af manuelle bankafstemninger er meget tidskrævende og udføres typisk af en uddannet bogholder. Ved at indføre automatisk udligning af ind- og udbetalinger samt udarbejdelse af automatisk bankafstemning, spares der meget tid og risikoen for fejl minimeres. Bogholderen skal alene forholde sig åbenstående poster</p>
+        <p>Manuel bogføring af ind- og udbetalinger samt udarbejdelse af manuelle bankafstemninger er meget tidskrævende og udføres typisk af en uddannet bogholder. Ved at indføre automatisk udligning af ind- og udbetalinger samt udarbejdelse af automatisk bankafstemning, spares der meget tid og risikoen for fejl minimeres. Bogholderen skal alene forholde sig åbenstående poster</p>
         <div class="embed-responsive embed-responsive-16by9">
           <iframe width="1903" height="769" src="https://www.youtube.com/embed/BhJd_GuXaXE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
         </div>

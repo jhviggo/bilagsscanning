@@ -28,16 +28,16 @@
               <div class="col-12">
                 <p>Jeg vil gerne:</p>
                   <div>
-                    <input checked="checked" class="mr-1" id="appointment-1" name="møde" value="Jeg vil gerne have et uforpligtende møde" type="radio"/>
-                    <label for="appointment-1">have et uforpligtende møde</label>
+                    <input checked="checked" class="mr-1" id="appointment-1" name="valg" value="Jeg vil gerne have et uforpligtende møde" type="radio"/>
+                    <p for="appointment-1">have et uforpligtende møde</p>
                   </div>
                   <div>
-                    <input class="mr-1" id="appointment-2" name="materiale" value="Jeg vil gerne have materiale tilsendt" type="radio"/>
-                    <label for="appointment-2">have materiale tilsendt</label>
+                    <input class="mr-1" id="appointment-2" name="valg" value="Jeg vil gerne have materiale tilsendt" type="radio"/>
+                    <p for="appointment-2">have materiale tilsendt</p>
                   </div>
                   <div>
-                    <input class="mr-1" id="appointment-3" name="produktet" value="Jeg vil gerne høre mere om produktet" type="radio"/>
-                    <label for="appointment-3">høre mere om produktet</label>
+                    <input class="mr-1" id="appointment-3" name="valg" value="Jeg vil gerne høre mere om produktet" type="radio"/>
+                    <p for="appointment-3">høre mere om produktet</p>
                   </div>
               <button class="btn top-header__login py-0 px-5 ml-5">Send</button>
             </form>
